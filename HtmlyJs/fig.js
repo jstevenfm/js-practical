@@ -1,8 +1,4 @@
-console.log("Qué se cuentan");
-
 // CUADRADO
-console.group("Cuadrado");
-
 function perimetroCuadrado(ladoCuadrado) {
     return ladoCuadrado * 4;
 }
@@ -26,12 +22,7 @@ function calcularAreaCuadrado() {
 }
 
 
-console.groupEnd();
-
-
 // TRIÁNGULO
-console.group("Triángulo");
-
 function perimetroTriangulo (lado1, lado2, base) {
     return lado1 + lado2 + base;
 }
@@ -47,7 +38,6 @@ function calcularPerimetroTriangulo() {
     alert("El perímetro de tu triángulo es: " + perimetro + " cm");
 }
 
-// const areaTriangulo = (baseTriangulo * alturaTriangulo) / 2;
 function areaTriangulo(base, altura) {
     return (base * altura) / 2;
 }
@@ -61,12 +51,7 @@ function calcularAreaTriangulo() {
     alert("El perímetro de tu triángulo es: " + area + " cm²");
 }
 
-console.groupEnd();
-
-
 // Círculo
-console.group("Círculo");
-
 function diametroCirculo(radio) {
     return radio * 2;
 }
@@ -102,5 +87,3 @@ function calcularAreaCirculo() {
     const area = areaCirculo(valueRadio);
     alert("El área de tu círculo es: " + area + " cm²");
 }
-
-console.groupEnd();
