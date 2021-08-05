@@ -24,16 +24,21 @@
 
     </header>
 
+    <!-- CUADRADO -->
     <section>
 
         <h2>
-            Calculadora para los cuadrados
+            Calculadora para los cuadrados.
         </h2>
 
         <form action="">
 
+            <p>
+                Escribe cuánto mide los lados de tu cuadrado en cm:
+            </p>
+
             <label for="InputCuadrado">
-                Escribe cuánto mide los lados de tu cuadrado:
+                Lado:
             </label>
 
             <input id="InputCuadrado" type="number">
@@ -50,6 +55,54 @@
 
     </section>
 
+    <!-- TRIANGULO -->
+    <section>
+
+        <h2>
+            Calculadora para los triangulos.
+        </h2>
+
+        <form action="">
+
+            <p>
+                Escribe cuánto mide los lados de tu cuadrado en cm:
+            </p>
+
+            <label for="ladoA">
+                Lado A:
+            </label>
+
+            <input id="ladoA" type="number">
+
+            <label for="ladoB">
+                Lado B:
+            </label>
+
+            <input id="ladoB" type="number">
+
+            <label for="base">
+                Base:
+            </label>
+
+            <input id="base" type="number">
+
+            <label for="altura">
+                Altura:
+            </label>
+
+            <input id="altura" type="number">
+
+            <button onclick="calcularPerimetroTriangulo()">
+                Calcular perímetro.
+            </button>
+
+            <button  onclick="calcularAreaTriangulo()">
+                Calcular área.
+            </button>
+
+        </form>
+
+    </section>
 </body>
 
 </html>
