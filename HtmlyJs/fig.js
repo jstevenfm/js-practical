@@ -42,8 +42,6 @@ function calcularPerimetroTriangulo() {
     const valueLadoA = Number(ladoA.value);
     const valueLadoB = Number(ladoB.value);
     const valueBase = Number(base.value);
-    // const altura = document.getElementById("altura");
-    // const valueAltura = altura.value;
 
     const perimetro = perimetroTriangulo(valueLadoA, valueLadoB, valueBase);
     alert("El perímetro de tu triángulo es: " + perimetro + " cm");
@@ -59,8 +57,8 @@ function calcularAreaTriangulo() {
     const altura = document.getElementById("altura");
     const valueAltura = Number(altura.value);
 
-    const perimetro = areaTriangulo(valueBase, valueAltura);
-    alert("El perímetro de tu triángulo es: " + perimetro + " cm");
+    const area = areaTriangulo(valueBase, valueAltura);
+    alert("El perímetro de tu triángulo es: " + area + " cm²");
 }
 
 console.groupEnd();
@@ -69,34 +67,40 @@ console.groupEnd();
 // Círculo
 console.group("Círculo");
 
-// const radioCirculo = 4;
-// console.log("El radio del círculo es: " + radioCirculo + "cm");
-
-// const diametroCirculo = radioCirculo * 2;
 function diametroCirculo(radio) {
     return radio * 2;
 }
-// console.log("El diametro del círculo es: " + diametroCirculo + "cm");
+function calcularDiametroCirculo() {
+    const radio = document.getElementById("radio");
+    const valueRadio = radio.value;
+
+    const diametro = diametroCirculo(valueRadio);
+    alert("El diametro del círculo es: " + diametro + " cm");
+}
 
 const pi = Math.PI;
-// console.log(pi)
 
-// const perimetroCirculo = diametroCirculo * pi;
 function perimetroCirculo(radio) {
     const diametro = diametroCirculo(radio);
     return diametro * pi;
 }
-// console.log("El perímetro del círculo es: " + perimetroCirculo + "cm");
+function calcularPerimetroCirculo() {
+    const radio = document.getElementById("radio");
+    const valueRadio = radio.value;
 
-// const areaCirculo = (radioCirculo * radioCirculo) * pi;
+    const perimetro = perimetroCirculo(valueRadio);
+    alert("El perímetro del círculo es: " + perimetro + " cm");
+}
+
 function areaCirculo(radio) {
     return (radio * radio) * pi;
 }
-// console.log("El área del círculo es: " + areaCirculo + "cm²");
+function calcularAreaCirculo() {
+    const radio = document.getElementById("radio");
+    const valueRadio = radio.value;
+
+    const area = areaCirculo(valueRadio);
+    alert("El área de tu círculo es: " + area + " cm²");
+}
 
 console.groupEnd();
-
-// HTML
-// HTML
-// HTML
-
