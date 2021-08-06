@@ -39,6 +39,28 @@ body {
 }
 .nav-title {
     font-size: 1.5em;
+    font-weight: 500;
     position: relative;
     top: 15px;  right: 15px;
+    height: 20px;
+}
+
+/*      */
+/* MAIN */
+/*      */
+
+.greeting {
+    position: relative;
+    top: 20px;  left: 5%;
+    width: 90%;
+}
+.greeting-title {
+    font-size: 1.8rem;
+    font-weight: 300;
+    margin: 10px;
+}
+.greeting-txt {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin: 10px;
 }
