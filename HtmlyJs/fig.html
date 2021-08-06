@@ -5,138 +5,148 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./styles/mobile.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
     <title>Figuras Geométricas</title>
 </head>
 
 <body>
 
+    <header class="nav">
 
-    <script src="./fig.js"></script>
-    <header>
+        <img class="nav-icon" src="./assets/icons/geometric.svg" alt="">
+        <!-- <img class="nav-icon" src="./assets/icons/shapes.svg" alt=""> -->
 
-        <h1>
+        <h1 class="nav-title">
             Calculadora de figuras geométricas
         </h1>
+
+    </header>
+
+    <!-- <main>
 
         <p>
             Acá puedes calcular el perímetro y el área de cuadrados, triangulos y círculos.
         </p>
 
-    </header>
+        CUADRADO
+        <section>
 
-    <!-- CUADRADO -->
-    <section>
+            <h2>
+                Calculadora para los cuadrados.
+            </h2>
 
-        <h2>
-            Calculadora para los cuadrados.
-        </h2>
+            <form action="">
 
-        <form action="">
+                <p>
+                    Escribe la medidas de tu cuadrado en cm:
+                </p>
 
-            <p>
-                Escribe la medidas de tu cuadrado en cm:
-            </p>
+                <label for="InputCuadrado">
+                    Lado:
+                </label>
 
-            <label for="InputCuadrado">
-                Lado:
-            </label>
+                <input id="InputCuadrado" type="number">
 
-            <input id="InputCuadrado" type="number">
+                <button onclick="calcularPerimetroCuadrado()">
+                    Calcular perímetro.
+                </button>
 
-            <button onclick="calcularPerimetroCuadrado()">
-                Calcular perímetro.
-            </button>
+                <button onclick="calcularAreaCuadrado()">
+                    Calcular área.
+                </button>
 
-            <button  onclick="calcularAreaCuadrado()">
-                Calcular área.
-            </button>
+            </form>
 
-        </form>
+        </section>
 
-    </section>
+        TRIANGULO
+        <section>
 
-    <!-- TRIANGULO -->
-    <section>
+            <h2>
+                Calculadora para los triangulos.
+            </h2>
 
-        <h2>
-            Calculadora para los triangulos.
-        </h2>
+            <form action="">
 
-        <form action="">
+                <p>
+                    Escribe la medidas de tu triángulo en cm:
+                </p>
 
-            <p>
-                Escribe la medidas de tu triángulo en cm:
-            </p>
+                <label for="ladoA">
+                    Lado A:
+                </label>
 
-            <label for="ladoA">
-                Lado A:
-            </label>
+                <input id="ladoA" type="number">
 
-            <input id="ladoA" type="number">
+                <label for="ladoB">
+                    Lado B:
+                </label>
 
-            <label for="ladoB">
-                Lado B:
-            </label>
+                <input id="ladoB" type="number">
 
-            <input id="ladoB" type="number">
+                <label for="base">
+                    Base:
+                </label>
 
-            <label for="base">
-                Base:
-            </label>
+                <input id="base" type="number">
 
-            <input id="base" type="number">
+                <label for="altura">
+                    Altura:
+                </label>
 
-            <label for="altura">
-                Altura:
-            </label>
+                <input id="altura" type="number">
 
-            <input id="altura" type="number">
+                <button onclick="calcularPerimetroTriangulo()">
+                    Calcular perímetro.
+                </button>
 
-            <button onclick="calcularPerimetroTriangulo()">
-                Calcular perímetro.
-            </button>
+                <button onclick="calcularAreaTriangulo()">
+                    Calcular área.
+                </button>
 
-            <button  onclick="calcularAreaTriangulo()">
-                Calcular área.
-            </button>
+            </form>
 
-        </form>
+            CÍRCULO
+            <section>
 
-        <!-- CÍRCULO -->
-    <section>
+                <h2>
+                    Calculadora para los círculos.
+                </h2>
 
-        <h2>
-            Calculadora para los círculos.
-        </h2>
+                <form action="">
 
-        <form action="">
+                    <p>
+                        Escribe la medidas de tu círculo en cm:
+                    </p>
 
-            <p>
-                Escribe la medidas de tu círculo en cm:
-            </p>
+                    <label for="radio">
+                        Radio:
+                    </label>
 
-            <label for="radio">
-                Radio:
-            </label>
+                    <input id="radio" type="number">
 
-            <input id="radio" type="number">
+                    <button onclick="calcularDiametroCirculo()">
+                        Calcular perímetro.
+                    </button>
 
-            <button onclick="calcularDiametroCirculo()">
-                Calcular perímetro.
-            </button>
+                    <button onclick="calcularPerimetroCirculo()">
+                        Calcular perímetro.
+                    </button>
 
-            <button onclick="calcularPerimetroCirculo()">
-                Calcular perímetro.
-            </button>
+                    <button onclick="calcularAreaCirculo()">
+                        Calcular área.
+                    </button>
 
-            <button  onclick="calcularAreaCirculo()">
-                Calcular área.
-            </button>
+                </form>
 
-        </form>
+            </section>
 
-    </section>
+    </main> -->
+
+    <script src="./fig.js"></script>
+
 </body>
 
 </html>
