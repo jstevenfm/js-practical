@@ -70,7 +70,7 @@ body {
     background-color: var(--square);
     border-radius: 20px;
     box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
-    /* height: ; */
+    height: 250px;
     margin-left: 5%;
     margin-top: 40px;
     padding: 10px;
@@ -80,37 +80,39 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    margin: 15px 0;
 }
 .square--header__icon {
     width: 30px;
 }
 .square--header__title {
-    margin-right: 5%;
+    margin-right: 3%;
 }
 .square--form {
     font-size: 1.2rem;
-    margin: 5%;
+    margin: 20px 5%;
 }
 .square--form__txt {
-    margin: 10px 0;
+    margin: 25px 0;
 }
 .square--form__label{
-    margin-right: 10px;
+    margin: 20px 10px 20px 0;
 }
 .square--form__input {
-    border: 0px solid #828282;
-    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+    border: 1px solid #828282;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
+    margin-top: 5px;
     padding: 8px 15px;
-    width: 190px;
+    width: 82%;
     height: 30px;
 }
 .square--form__button {
     display: inline-block;
     background-color: white;
+    border: 1px solid #828282;
     border-radius: 5px;
     color: var(--square);
-    border: 0px;
-    margin: 15px 5px 0 0;
+    margin: 20px 5px 0;
     padding: 5px;
 }
