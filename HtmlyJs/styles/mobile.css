@@ -1,8 +1,8 @@
 :root {
     /* Colores */
     --header-blue: #CDE6F5;
-    --square: #2660A4;
-    /* --square: #6AB2CC; */
+    /* --square: #2660A4; */
+    --square: #6AB2CC;
     --triangle: #E65A5B;
     --circle: #FFD782;
 }
@@ -16,7 +16,7 @@ html {
     font-size: 62.5%;
 }
 body {
-    background-color: #fff;
+    color: white;
 }
 
 /*        */
@@ -26,20 +26,20 @@ body {
 .nav {
     background-color: var(--header-blue);
     border-radius: 0 0  10px 10px;
-    box-shadow: 1px 1px 20px 5px rgba(133, 96, 96, 0.2);
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
     width: 100%;
     height: 50px;
     display: flex;
     justify-content: space-around;
 }
-.nav-icon {
+.nav--icon {
     width: 40px;
 }
-.nav-title {
+.nav--title {
     font-size: 1.5em;
     font-weight: 500;
     position: relative;
-    top: 15px;  
+    top: 15px;
     height: 20px;
 }
 
@@ -48,17 +48,69 @@ body {
 /*      */
 
 .greeting {
+    color: black;
     position: relative;
-    top: 20px;  left: 5%;
+    top: 15px;  left: 5%;
     width: 90%;
 }
-.greeting-title {
+.greeting--title {
     font-size: 1.8rem;
     font-weight: 300;
     margin: 10px;
 }
-.greeting-txt {
+.greeting--txt {
     font-size: 1.2rem;
     font-weight: 300;
     margin: 10px;
+}
+
+/* Square */
+
+.square {
+    background-color: var(--square);
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+    /* height: ; */
+    margin-left: 5%;
+    margin-top: 40px;
+    padding: 10px;
+    width: 90%;
+}
+.square--header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.square--header__icon {
+    width: 30px;
+}
+.square--header__title {
+    margin-right: 5%;
+}
+.square--form {
+    font-size: 1.2rem;
+    margin: 5%;
+}
+.square--form__txt {
+    margin: 10px 0;
+}
+.square--form__label{
+    margin-right: 10px;
+}
+.square--form__input {
+    border: 0px solid #828282;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    padding: 8px 15px;
+    width: 190px;
+    height: 30px;
+}
+.square--form__button {
+    display: inline-block;
+    background-color: white;
+    border-radius: 5px;
+    color: var(--square);
+    border: 0px;
+    margin: 15px 5px 0 0;
+    padding: 5px;
 }

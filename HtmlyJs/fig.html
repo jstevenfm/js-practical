@@ -15,10 +15,10 @@
 
     <header class="nav">
 
-        <img class="nav-icon" src="./assets/icons/geometric.svg" alt="">
-        <!-- <img class="nav-icon" src="./assets/icons/shapes.svg" alt=""> -->
+        <img class="nav--icon" src="./assets/icons/geometric.svg" alt="Icon shapes geometrics">
+        <!-- <img class="nav-icon" src="./assets/icons/shapes.svg" alt="Icon shapes geometrics"> -->
 
-        <h1 class="nav-title">
+        <h1 class="nav--title">
             Calculadora de figuras geométricas
         </h1>
 
@@ -27,44 +27,47 @@
     <main>
 
         <section class="greeting">
-            <h3 class="greeting-title">
+            <h3 class="greeting--title">
                 ¡Hola!
             </h3>
-            <p class="greeting-txt">
+            <p class="greeting--txt">
                 Acá puedes calcular el perímetro y el área de cuadrados, triangulos y círculos.
             </p>
         </section>
 
         <!-- CUADRADO -->
-        <!-- <section>
+        <section class="square">
 
-            <h2>
-                Calculadora para los cuadrados.
-            </h2>
+            <div class="square--header">
+                <img class="square--header__icon" src="./assets/icons/square.png" alt="Icon Square">
+                <h2 class="square--header__title">
+                    Calculadora para los cuadrados.
+                </h2>
+            </div>
 
-            <form action="">
+            <form class="square--form" action="">
 
-                <p>
-                    Escribe la medidas de tu cuadrado en cm:
+                <p class="square--form__txt">
+                    Escribe la medidas de tu cuadrado en cm.
                 </p>
 
-                <label for="InputCuadrado">
+                <label class="square--form__label" for="InputCuadrado">
                     Lado:
                 </label>
 
-                <input id="InputCuadrado" type="number">
+                <input class="square--form__input" id="InputCuadrado" type="number">
 
-                <button onclick="calcularPerimetroCuadrado()">
+                <button class="square--form__button" onclick="calcularPerimetroCuadrado()">
                     Calcular perímetro.
                 </button>
 
-                <button onclick="calcularAreaCuadrado()">
+                <button class="square--form__button" onclick="calcularAreaCuadrado()">
                     Calcular área.
                 </button>
 
             </form>
 
-        </section> -->
+        </section>
 
         <!-- TRIANGULO -->
         <!-- <section>
@@ -113,8 +116,8 @@
 
             </form> -->
 
-            <!-- CÍRCULO -->
-            <!-- <section>
+        <!-- CÍRCULO -->
+        <!-- <section>
 
                 <h2>
                     Calculadora para los círculos.
