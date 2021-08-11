@@ -73,8 +73,7 @@ body {
     border-radius: 20px;
     box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
     height: 230px;
-    margin-left: 5%;
-    margin-top: 40px;
+    margin: 40px auto 0;
     padding: 10px;
     width: 290px;
 }
@@ -125,8 +124,7 @@ body {
     border-radius: 20px;
     box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
     height: 330px;
-    margin-left: 5%;
-    margin-top: 25px;
+    margin: 30px auto 0;
     padding: 10px;
     width: 290px;
 }
