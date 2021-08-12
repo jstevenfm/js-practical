@@ -4,7 +4,7 @@
     --square: #2660A4;
     /* --square: #6AB2CC; */
     --triangle: #E65A5B;
-    --circle: #FFD782;
+    --circle: #FFD523;
 }
 * {
     box-sizing: border-box;
@@ -17,7 +17,7 @@ html {
     font-size: 62.5%;
 }
 body {
-    color: var(--header-blue);
+    color: white;
 }
 
 /*        */
@@ -176,3 +176,52 @@ body {
 }
 
 /* Circle */
+.circle {
+    background-color: var(--circle);
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+    height: 330px;
+    margin: 30px auto 0;
+    padding: 10px;
+    width: 290px;
+}
+.circle--header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 15px 0;
+}
+.circle--header__icon {
+    width: 30px;
+}
+.circle--header__title {
+    margin-right: 3%;
+}
+.circle--form {
+    font-size: 1.2rem;
+    margin: 20px 5%;
+}
+.circle--form__txt {
+    margin: 25px 0;
+}
+.circle--form__label {
+    margin: 20px 10px 20px 0;
+}
+.circle--form__input {
+    border: 1px solid #828282;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    margin-top: 5px;
+    padding: 8px 15px;
+    width: 188px;
+    height: 30px;
+}
+.circle--form__button {
+    display: inline-block;
+    background-color: white;
+    border: 1px solid #828282;
+    border-radius: 7px;
+    color: var(--circle);
+    margin: 20px 4px 0;
+    padding: 5px;
+}
