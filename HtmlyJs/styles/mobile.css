@@ -180,7 +180,7 @@ body {
     background-color: var(--circle);
     border-radius: 20px;
     box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
-    height: 330px;
+    height: 260px;
     margin: 30px auto 0;
     padding: 10px;
     width: 290px;
@@ -222,6 +222,17 @@ body {
     border: 1px solid #828282;
     border-radius: 7px;
     color: var(--circle);
-    margin: 20px 4px 0;
+    margin: 10px 4px 0;
     padding: 5px;
+}
+.diametro {
+    margin-top: 20px;
+    width: 230px;
+}
+
+/*        */
+/* FOOTER */
+/*        */
+footer {
+    height: 20px;
 }
