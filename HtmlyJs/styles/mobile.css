@@ -19,7 +19,6 @@ html {
 body {
     color: white;
 }
-
 /*        */
 /* HEADER */
 /*        */
@@ -48,7 +47,10 @@ body {
 /*      */
 /* MAIN */
 /*      */
-
+main {
+    width: 100%;
+    height: auto;
+}
 .greeting {
     color: black;
     position: relative;
@@ -72,16 +74,20 @@ body {
     background-color: var(--square);
     border-radius: 20px;
     box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
-    height: 230px;
+    height: auto;
     margin: 40px auto 0;
-    padding: 10px;
-    width: 290px;
+    width: 90%;
+    min-width: 290px;
+    max-width: 540px;
 }
 .square--header {
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin: 15px 0;
+    padding: 20px 0;
+    width: 100%;
 }
 .square--header__icon {
     width: 30px;
@@ -97,16 +103,23 @@ body {
     margin: 25px 0;
 }
 .square--form__label{
-    margin: 20px 10px 20px 0;
+    margin: 20px 5px;
 }
 .square--form__input {
     border: 1px solid #828282;
     box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
-    margin-top: 5px;
-    padding: 8px 15px;
-    width: 200px;
     height: 30px;
+    margin: 5px auto;
+    padding: 8px 15px;
+    min-width: 200px;
+    width: 82%;
+    max-width: 420px;
+}
+.button {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
 }
 .square--form__button {
     display: inline-block;
@@ -114,8 +127,12 @@ body {
     border: 1px solid #828282;
     border-radius: 7px;
     color: var(--square);
-    margin: 20px 5px 0;
+    font-size: 1.2rem;
+    min-height: 30px;
+    max-height: 42px;
     padding: 5px;
+    width: 49%;
+    max-width: 160px;
 }
 
 /* Triangle */
