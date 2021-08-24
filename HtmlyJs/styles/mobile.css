@@ -6,26 +6,30 @@
     --triangle: #E65A5B;
     --circle: #5D8233;
 }
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
 html {
     background-color: var(--header-blue);
     font-family: 'Roboto', sans-serif;
     font-size: 62.5%;
 }
+
 body {
     color: white;
 }
+
 /*        */
 /* HEADER */
 /*        */
 
 .nav {
     background-color: var(--header-blue);
-    border-radius: 0 0  10px 10px;
+    border-radius: 0 0 10px 10px;
     box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
     color: black;
     width: 100%;
@@ -33,9 +37,11 @@ body {
     display: flex;
     justify-content: space-around;
 }
+
 .nav--icon {
     width: 40px;
 }
+
 .nav--title {
     font-size: 1.5em;
     font-weight: 500;
@@ -51,16 +57,19 @@ main {
     width: 100%;
     height: auto;
 }
+
 .greeting {
     color: black;
     margin: 25px auto 0;
     width: 90%;
 }
+
 .greeting--title {
     font-size: 1.8rem;
     font-weight: 300;
     margin: 10px;
 }
+
 .greeting--txt {
     font-size: 1.2rem;
     font-weight: 300;
@@ -78,6 +87,7 @@ main {
     min-width: 290px;
     max-width: 540px;
 }
+
 .square--header {
     border-radius: 20px;
     box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
@@ -87,22 +97,28 @@ main {
     padding: 20px 0;
     width: 100%;
 }
+
 .square--header__icon {
     width: 30px;
 }
+
 .square--header__title {
     margin-right: 3%;
 }
+
 .square--form {
     font-size: 1.2rem;
     margin: 20px 5%;
 }
+
 .square--form__txt {
     margin: 25px 0;
 }
-.square--form__label{
+
+.square--form__label {
     margin: 20px 5px;
 }
+
 .square--form__input {
     border: 1px solid #828282;
     box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.1);
@@ -114,11 +130,13 @@ main {
     width: 100%;
     max-width: 420px;
 }
+
 .button {
     display: flex;
     justify-content: space-around;
     padding: 20px 0;
 }
+
 .square--form__button {
     display: inline-block;
     background-color: white;
@@ -144,6 +162,7 @@ main {
     min-width: 290px;
     max-width: 540px;
 }
+
 .triangle--header {
     border-radius: 20px;
     box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
@@ -153,22 +172,28 @@ main {
     padding: 20px 0;
     width: 100%;
 }
+
 .triangle--header__icon {
     width: 30px;
 }
+
 .triangle--header__title {
     margin-right: 3%;
 }
+
 .triangle--form {
     font-size: 1.2rem;
     margin: 20px 5%;
 }
+
 .triangle--form__txt {
     margin: 25px 0;
 }
+
 .triangle--form__label {
     margin: 20px 5px;
 }
+
 .triangle--form__input {
     border: 1px solid #828282;
     box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.1);
@@ -180,6 +205,7 @@ main {
     width: 100%;
     max-width: 420px;
 }
+
 .triangle--form__button {
     display: inline-block;
     background-color: white;
@@ -205,6 +231,7 @@ main {
     min-width: 290px;
     max-width: 540px;
 }
+
 .circle--header {
     border-radius: 20px;
     box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
@@ -214,22 +241,28 @@ main {
     padding: 20px 0;
     width: 100%;
 }
+
 .circle--header__icon {
     width: 30px;
 }
+
 .circle--header__title {
     margin-right: 3%;
 }
+
 .circle--form {
     font-size: 1.2rem;
     margin: 20px 5%;
 }
+
 .circle--form__txt {
     margin: 25px 0;
 }
+
 .circle--form__label {
     margin: 20px 5px;
 }
+
 .circle--form__input {
     border: 1px solid #828282;
     box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.1);
@@ -241,6 +274,7 @@ main {
     width: 100%;
     max-width: 420px;
 }
+
 .circle--form__button {
     display: inline-block;
     background-color: white;
