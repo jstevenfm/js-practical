@@ -53,8 +53,6 @@ main {
 }
 .greeting {
     color: black;
-    /* position: relative;
-    top: 15px;  left: 5%; */
     margin: 25px auto 0;
     width: 90%;
 }
