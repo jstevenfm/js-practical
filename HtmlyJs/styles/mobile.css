@@ -75,7 +75,10 @@ main {
     font-weight: 300;
     margin: 10px;
 }
-
+.containerSections { 
+    display: flex;
+    flex-wrap: wrap;
+}
 /* Square */
 .square {
     background-color: var(--square);
@@ -85,7 +88,7 @@ main {
     margin: 30px auto 0;
     width: 90%;
     min-width: 290px;
-    max-width: 540px;
+    max-width: 500px;
 }
 
 .square--header {
@@ -160,7 +163,7 @@ main {
     margin: 30px auto 0;
     width: 90%;
     min-width: 290px;
-    max-width: 540px;
+    max-width: 500px;
 }
 
 .triangle--header {
@@ -229,7 +232,7 @@ main {
     margin: 30px auto 0;
     width: 90%;
     min-width: 290px;
-    max-width: 540px;
+    max-width: 500px;
 }
 
 .circle--header {
