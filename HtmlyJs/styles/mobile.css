@@ -103,14 +103,13 @@ main {
 .card--header__title {
     margin-right: 3%;
 }
+.containerSections--card__form {
+    font-size: 1.2rem;
+    margin: 20px 5%;
+}
 /* Square */
 .square {
     background-color: var(--square);
-}
-
-.square--form {
-    font-size: 1.2rem;
-    margin: 20px 5%;
 }
 
 .square--form__txt {
@@ -159,11 +158,6 @@ main {
     background-color: var(--triangle);
 }
 
-.triangle--form {
-    font-size: 1.2rem;
-    margin: 20px 5%;
-}
-
 .triangle--form__txt {
     margin: 25px 0;
 }
@@ -202,11 +196,6 @@ main {
 /* Circle */
 .circle {
     background-color: var(--circle);
-}
-
-.circle--form {
-    font-size: 1.2rem;
-    margin: 20px 5%;
 }
 
 .circle--form__txt {
