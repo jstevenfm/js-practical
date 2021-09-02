@@ -88,12 +88,7 @@ main {
     min-width: 290px;
     max-width: 500px;
 }
-/* Square */
-.square {
-    background-color: var(--square);
-}
-
-.square--header {
+.containerSections--card__header {
     border-radius: 20px;
     box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
     display: flex;
@@ -101,6 +96,10 @@ main {
     justify-content: space-evenly;
     padding: 20px 0;
     width: 100%;
+}
+/* Square */
+.square {
+    background-color: var(--square);
 }
 
 .square--header__icon {
@@ -162,16 +161,6 @@ main {
     background-color: var(--triangle);
 }
 
-.triangle--header {
-    border-radius: 20px;
-    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    padding: 20px 0;
-    width: 100%;
-}
-
 .triangle--header__icon {
     width: 30px;
 }
@@ -223,16 +212,6 @@ main {
 /* Circle */
 .circle {
     background-color: var(--circle);
-}
-
-.circle--header {
-    border-radius: 20px;
-    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    padding: 20px 0;
-    width: 100%;
 }
 
 .circle--header__icon {
