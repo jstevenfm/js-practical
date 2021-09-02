@@ -125,104 +125,43 @@ main {
     width: 100%;
     max-width: 420px;
 }
-/* Square */
-.square {
-    background-color: var(--square);
-}
-
-.square--form__input {
-    border: 1px solid #828282;
-    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.1);
-    border-radius: 20px;
-    height: 30px;
-    margin: 5px auto;
-    outline: none;
-    padding: 8px 15px;
-    min-width: 200px;
-    width: 100%;
-    max-width: 420px;
-}
-
 .button {
     display: flex;
     justify-content: space-around;
     padding: 20px 0;
 }
-
-.square--form__button {
+.card--form__button {
     display: inline-block;
     background-color: white;
     border: 1px solid #828282;
     border-radius: 7px;
-    color: var(--square);
     font-size: 1.2rem;
     min-height: 30px;
     max-height: 42px;
     padding: 5px;
     width: 49%;
     max-width: 160px;
+}
+/* Square */
+.square {
+    background-color: var(--square);
+}
+.square--form__button {
+    color: var(--square);
 }
 
 /* Triangle */
 .triangle {
     background-color: var(--triangle);
 }
-
-.triangle--form__input {
-    border: 1px solid #828282;
-    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.1);
-    border-radius: 20px;
-    height: 30px;
-    margin: 5px auto;
-    outline: none;
-    padding: 8px 15px;
-    min-width: 200px;
-    width: 100%;
-    max-width: 420px;
-}
-
 .triangle--form__button {
-    display: inline-block;
-    background-color: white;
-    border: 1px solid #828282;
-    border-radius: 7px;
     color: var(--triangle);
-    font-size: 1.2rem;
-    min-height: 30px;
-    max-height: 42px;
-    padding: 5px;
-    width: 49%;
-    max-width: 160px;
 }
 
 /* Circle */
 .circle {
     background-color: var(--circle);
 }
-
-.circle--form__input {
-    border: 1px solid #828282;
-    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.1);
-    border-radius: 20px;
-    height: 30px;
-    margin: 5px auto;
-    outline: none;
-    padding: 8px 15px;
-    min-width: 200px;
-    width: 100%;
-    max-width: 420px;
-}
-
 .circle--form__button {
-    display: inline-block;
-    background-color: white;
-    border: 1px solid #828282;
-    border-radius: 7px;
     color: var(--circle);
-    font-size: 1.2rem;
-    min-height: 30px;
-    max-height: 42px;
-    padding: 5px;
-    width: 49%;
-    max-width: 160px;
 }
