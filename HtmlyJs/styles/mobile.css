@@ -107,17 +107,15 @@ main {
     font-size: 1.2rem;
     margin: 20px 5%;
 }
+.card--form__txt {
+    margin: 25px 0;
+}
+.card--form__label {
+    margin: 20px 5px;
+}
 /* Square */
 .square {
     background-color: var(--square);
-}
-
-.square--form__txt {
-    margin: 25px 0;
-}
-
-.square--form__label {
-    margin: 20px 5px;
 }
 
 .square--form__input {
@@ -158,14 +156,6 @@ main {
     background-color: var(--triangle);
 }
 
-.triangle--form__txt {
-    margin: 25px 0;
-}
-
-.triangle--form__label {
-    margin: 20px 5px;
-}
-
 .triangle--form__input {
     border: 1px solid #828282;
     box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.1);
@@ -196,14 +186,6 @@ main {
 /* Circle */
 .circle {
     background-color: var(--circle);
-}
-
-.circle--form__txt {
-    margin: 25px 0;
-}
-
-.circle--form__label {
-    margin: 20px 5px;
 }
 
 .circle--form__input {
