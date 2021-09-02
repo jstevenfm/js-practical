@@ -97,13 +97,12 @@ main {
     padding: 20px 0;
     width: 100%;
 }
+.card--header__icon {
+    width: 30px;
+}
 /* Square */
 .square {
     background-color: var(--square);
-}
-
-.square--header__icon {
-    width: 30px;
 }
 
 .square--header__title {
@@ -161,10 +160,6 @@ main {
     background-color: var(--triangle);
 }
 
-.triangle--header__icon {
-    width: 30px;
-}
-
 .triangle--header__title {
     margin-right: 3%;
 }
@@ -214,9 +209,6 @@ main {
     background-color: var(--circle);
 }
 
-.circle--header__icon {
-    width: 30px;
-}
 
 .circle--header__title {
     margin-right: 3%;
