@@ -100,13 +100,12 @@ main {
 .card--header__icon {
     width: 30px;
 }
+.card--header__title {
+    margin-right: 3%;
+}
 /* Square */
 .square {
     background-color: var(--square);
-}
-
-.square--header__title {
-    margin-right: 3%;
 }
 
 .square--form {
@@ -160,10 +159,6 @@ main {
     background-color: var(--triangle);
 }
 
-.triangle--header__title {
-    margin-right: 3%;
-}
-
 .triangle--form {
     font-size: 1.2rem;
     margin: 20px 5%;
@@ -207,11 +202,6 @@ main {
 /* Circle */
 .circle {
     background-color: var(--circle);
-}
-
-
-.circle--header__title {
-    margin-right: 3%;
 }
 
 .circle--form {
