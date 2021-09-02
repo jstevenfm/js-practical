@@ -38,134 +38,134 @@
 
         <section class="containerSections">
             <!-- CUADRADO -->
-        <section class="square">
+            <section class="containerSections-card square">
 
-            <div class="square--header">
-                <img class="square--header__icon" src="./assets/icons/square.png" alt="Icon Square">
-                <h2 class="square--header__title">
-                    Calculadora para los cuadrados.
-                </h2>
-            </div>
-
-            <form class="square--form" action="">
-
-                <p class="square--form__txt">
-                    Escribe la medidas de tu cuadrado en cm.
-                </p>
-
-                <label class="square--form__label" for="InputCuadrado">
-                    Lado:
-                </label>
-
-                <input class="square--form__input" id="InputCuadrado" type="number">
-
-                <div class="button">
-                    <button class="square--form__button" onclick="calcularPerimetroCuadrado()">
-                        Calcular Perímetro
-                    </button>
-
-                    <button class="square--form__button" onclick="calcularAreaCuadrado()">
-                        Calcular Área
-                    </button>
+                <div class="square--header">
+                    <img class="square--header__icon" src="./assets/icons/square.png" alt="Icon Square">
+                    <h2 class="square--header__title">
+                        Calculadora para los cuadrados.
+                    </h2>
                 </div>
 
-            </form>
+                <form class="square--form" action="">
 
-        </section>
+                    <p class="square--form__txt">
+                        Escribe la medidas de tu cuadrado en cm.
+                    </p>
 
-        <!-- TRIANGULO -->
-        <section class="triangle">
+                    <label class="square--form__label" for="InputCuadrado">
+                        Lado:
+                    </label>
 
-            <div class="triangle--header">
-                <img class="triangle--header__icon" src="./assets/icons/triangle.png" alt="Icon Triangle">
-                <h2 class="triangle--header__title">
-                    Calculadora para los triangulos.
-                </h2>
-            </div>
+                    <input class="square--form__input" id="InputCuadrado" type="number">
 
-            <form class="triangle--form" action="">
+                    <div class="button">
+                        <button class="square--form__button" onclick="calcularPerimetroCuadrado()">
+                            Calcular Perímetro
+                        </button>
 
-                <p class="triangle--form__txt">
-                    Escribe la medidas de tu triángulo en cm:
-                </p>
+                        <button class="square--form__button" onclick="calcularAreaCuadrado()">
+                            Calcular Área
+                        </button>
+                    </div>
 
-                <label class="triangle--form__label" for="ladoA">
-                    Lado A:
-                </label>
+                </form>
 
-                <input class="triangle--form__input" id="ladoA" type="number">
+            </section>
 
-                <label class="triangle--form__label" for="ladoB">
-                    Lado B:
-                </label>
+            <!-- TRIANGULO -->
+            <section class="containerSections-card triangle">
 
-                <input class="triangle--form__input" id="ladoB" type="number">
-
-                <label class="triangle--form__label" for="base">
-                    Base:
-                </label>
-
-                <input class="triangle--form__input" id="base" type="number">
-
-                <label class="triangle--form__label" for="altura">
-                    Altura:
-                </label>
-
-                <input class="triangle--form__input" id="altura" type="number">
-
-                <div class="button">
-                    <button class="triangle--form__button" onclick="calcularPerimetroTriangulo()">
-                        Calcular perímetro.
-                    </button>
-
-                    <button class="triangle--form__button" onclick="calcularAreaTriangulo()">
-                        Calcular área.
-                    </button>
+                <div class="triangle--header">
+                    <img class="triangle--header__icon" src="./assets/icons/triangle.png" alt="Icon Triangle">
+                    <h2 class="triangle--header__title">
+                        Calculadora para los triangulos.
+                    </h2>
                 </div>
 
-            </form>
+                <form class="triangle--form" action="">
 
-        </section>
+                    <p class="triangle--form__txt">
+                        Escribe la medidas de tu triángulo en cm:
+                    </p>
 
-        <!-- CÍRCULO -->
-        <section class="circle">
+                    <label class="triangle--form__label" for="ladoA">
+                        Lado A:
+                    </label>
 
-            <div class="circle--header">
-                <img class="circle--header__icon" src="./assets/icons/circle.png" alt="Icon Circle">
-                <h2 class="circle--header__title">
-                    Calculadora para los triangulos.
-                </h2>
-            </div>
+                    <input class="triangle--form__input" id="ladoA" type="number">
 
-            <form class="circle--form" action="">
+                    <label class="triangle--form__label" for="ladoB">
+                        Lado B:
+                    </label>
 
-                <p class="circle--form__txt">
-                    Escribe la medidas de tu círculo en cm:
-                </p>
+                    <input class="triangle--form__input" id="ladoB" type="number">
 
-                <label class="circle--form__label" for="radio">
-                    Radio:
-                </label>
+                    <label class="triangle--form__label" for="base">
+                        Base:
+                    </label>
 
-                <input class="circle--form__input" id="radio" type="number">
+                    <input class="triangle--form__input" id="base" type="number">
 
-                <div class="button">
-                    <button class="circle--form__button" onclick="calcularDiametroCirculo()">
-                        Calcular diámetro.
-                    </button>
+                    <label class="triangle--form__label" for="altura">
+                        Altura:
+                    </label>
 
-                    <button class="circle--form__button" onclick="calcularPerimetroCirculo()">
-                        Calcular perímetro.
-                    </button>
+                    <input class="triangle--form__input" id="altura" type="number">
 
-                    <button class="circle--form__button" onclick="calcularAreaCirculo()">
-                        Calcular área.
-                    </button>
+                    <div class="button">
+                        <button class="triangle--form__button" onclick="calcularPerimetroTriangulo()">
+                            Calcular perímetro.
+                        </button>
+
+                        <button class="triangle--form__button" onclick="calcularAreaTriangulo()">
+                            Calcular área.
+                        </button>
+                    </div>
+
+                </form>
+
+            </section>
+
+            <!-- CÍRCULO -->
+            <section class="containerSections-card circle">
+
+                <div class="circle--header">
+                    <img class="circle--header__icon" src="./assets/icons/circle.png" alt="Icon Circle">
+                    <h2 class="circle--header__title">
+                        Calculadora para los triangulos.
+                    </h2>
                 </div>
 
-            </form>
+                <form class="circle--form" action="">
 
-        </section>
+                    <p class="circle--form__txt">
+                        Escribe la medidas de tu círculo en cm:
+                    </p>
+
+                    <label class="circle--form__label" for="radio">
+                        Radio:
+                    </label>
+
+                    <input class="circle--form__input" id="radio" type="number">
+
+                    <div class="button">
+                        <button class="circle--form__button" onclick="calcularDiametroCirculo()">
+                            Calcular diámetro.
+                        </button>
+
+                        <button class="circle--form__button" onclick="calcularPerimetroCirculo()">
+                            Calcular perímetro.
+                        </button>
+
+                        <button class="circle--form__button" onclick="calcularAreaCirculo()">
+                            Calcular área.
+                        </button>
+                    </div>
+
+                </form>
+
+            </section>
         </section>
 
     </main>

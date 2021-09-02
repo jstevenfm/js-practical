@@ -79,9 +79,7 @@ main {
     display: flex;
     flex-wrap: wrap;
 }
-/* Square */
-.square {
-    background-color: var(--square);
+.containerSections-card {
     border-radius: 20px;
     box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
     height: auto;
@@ -89,6 +87,10 @@ main {
     width: 90%;
     min-width: 290px;
     max-width: 500px;
+}
+/* Square */
+.square {
+    background-color: var(--square);
 }
 
 .square--header {
@@ -157,13 +159,6 @@ main {
 /* Triangle */
 .triangle {
     background-color: var(--triangle);
-    border-radius: 20px;
-    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
-    height: auto;
-    margin: 30px auto 0;
-    width: 90%;
-    min-width: 290px;
-    max-width: 500px;
 }
 
 .triangle--header {
@@ -226,13 +221,6 @@ main {
 /* Circle */
 .circle {
     background-color: var(--circle);
-    border-radius: 20px;
-    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
-    height: auto;
-    margin: 30px auto 0;
-    width: 90%;
-    min-width: 290px;
-    max-width: 500px;
 }
 
 .circle--header {
