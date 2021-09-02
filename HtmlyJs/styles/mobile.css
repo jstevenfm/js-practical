@@ -113,6 +113,18 @@ main {
 .card--form__label {
     margin: 20px 5px;
 }
+.card--form__input {
+    border: 1px solid #828282;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    height: 30px;
+    margin: 5px auto;
+    outline: none;
+    padding: 8px 15px;
+    min-width: 200px;
+    width: 100%;
+    max-width: 420px;
+}
 /* Square */
 .square {
     background-color: var(--square);
