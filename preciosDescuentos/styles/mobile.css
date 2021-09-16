@@ -44,3 +44,25 @@ body {
     height: 20px;
 }
 
+main {
+    width: 100%;
+    height: auto;
+}
+
+.greeting {
+    color: white;
+    margin: 25px auto 0;
+    width: 90%;
+}
+
+.greeting--title {
+    font-size: 1.8rem;
+    font-weight: 300;
+    margin: 10px;
+}
+
+.greeting--txt {
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin: 10px;
+}
