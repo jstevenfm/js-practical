@@ -66,3 +66,54 @@ main {
     font-weight: 300;
     margin: 10px;
 }
+
+.section--card {
+    background-color: var(--square);
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+    height: auto;
+    margin: 30px auto 0;
+    width: 90%;
+    min-width: 290px;
+    max-width: 500px;
+}
+.section--card__header {
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px 0;
+    width: 100%;
+}
+.section--card__form {
+    font-size: 1.2rem;
+    margin: 20px 5%;
+}
+.card--form__label {
+    margin: 20px 5px;
+}
+.card--form__input {
+    border: 1px solid #828282;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    height: 30px;
+    margin: 5px auto;
+    outline: none;
+    padding: 8px 15px;
+    min-width: 200px;
+    width: 100%;
+    max-width: 420px;
+}
+.card--form__button {
+    background-color: white;
+    border: 1px solid #828282;
+    border-radius: 7px;
+    color: var(--square);
+    font-size: 1.2rem;
+    min-height: 30px;
+    max-height: 42px;
+    margin: 10px calc(50% - 25%) 30px;
+    width: 49%;
+    max-width: 160px;
+}

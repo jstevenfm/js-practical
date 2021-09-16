@@ -34,22 +34,22 @@
 
         </section>
 
-        <section>
+        <section class="section--card">
 
-            <h2>
+            <h2 class="section--card__header">
                 Calculadora de precios con descuento
             </h2>
     
-            <form action="">
+            <form class="section--card__form" action="">
 
-                <label for="inputPrice">Escribe el precio de tu producto:</label>
-                <input id="inputPrice" type="number">
+                <label class="card--form__label" for="inputPrice">Escribe el precio de tu producto:</label>
+                <input class="card--form__input" id="inputPrice" type="number">
     
-                <label for="inputCoupon">Escribe el cupon de descuento:</label>
-                <input id="inputCoupon" type="text">
+                <label class="card--form__label" for="inputCoupon">Escribe el cupon de descuento:</label>
+                <input class="card--form__input" id="inputCoupon" type="text">
     
-                <button type="button" onclick="buttonPriceDiscount()">
-                    Calcular precio con descuento
+                <button class="card--form__button" type="button" onclick="buttonPriceDiscount()">
+                    Precio a pagar
                 </button>
     
                 <p id="resultPrice"></p>
